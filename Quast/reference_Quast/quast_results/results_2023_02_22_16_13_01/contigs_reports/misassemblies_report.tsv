@@ -1,0 +1,23 @@
+Assembly	SRRoutput
+# misassemblies	86
+  # contig misassemblies	86
+    # c. relocations	33
+    # c. translocations	53
+    # c. inversions	0
+  # scaffold misassemblies	0
+    # s. relocations	0
+    # s. translocations	0
+    # s. inversions	0
+# misassembled contigs	18
+Misassembled contigs length	11372283
+# local misassemblies	31
+# scaffold gap ext. mis.	0
+# scaffold gap loc. mis.	0
+# structural variations	-
+# possible TEs	-
+# unaligned mis. contigs	0
+# mismatches	25325
+# indels	2582
+    # indels (<= 5 bp)	2219
+    # indels (> 5 bp)	363
+Indels length	13736

@@ -1,0 +1,87 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                        SRRoutput  
+# contigs (>= 0 bp)             22         
+# contigs (>= 1000 bp)          22         
+# contigs (>= 5000 bp)          22         
+# contigs (>= 10000 bp)         22         
+# contigs (>= 25000 bp)         18         
+# contigs (>= 50000 bp)         17         
+Total length (>= 0 bp)          12051270   
+Total length (>= 1000 bp)       12051270   
+Total length (>= 5000 bp)       12051270   
+Total length (>= 10000 bp)      12051270   
+Total length (>= 25000 bp)      11978000   
+Total length (>= 50000 bp)      11945303   
+# contigs                       22         
+Largest contig                  1495363    
+Total length                    12051270   
+Reference length                12157105   
+Estimated reference length      -          
+GC (%)                          38.32      
+Reference GC (%)                38.15      
+N50                             802231     
+NG50                            802231     
+N90                             348143     
+NG90                            348143     
+auN                             852710.3   
+auNG                            845286.9   
+L50                             6          
+LG50                            6          
+L90                             14         
+LG90                            14         
+# total reads                   -          
+# left                          -          
+# right                         -          
+Mapped (%)                      -          
+Reference mapped (%)            -          
+Properly paired (%)             -          
+Reference properly paired (%)   -          
+Avg. coverage depth             -          
+Reference avg. coverage depth   -          
+Coverage >= 1x (%)              -          
+Reference coverage >= 1x (%)    -          
+# large blocks misassemblies    -          
+# misassemblies                 86         
+# misassembled contigs          18         
+Misassembled contigs length     11372283   
+# local misassemblies           31         
+# scaffold gap ext. mis.        0          
+# scaffold gap loc. mis.        0          
+# structural variations         -          
+# possible TEs                  -          
+# unaligned mis. contigs        0          
+# unaligned contigs             0 + 14 part
+Unaligned length                70803      
+Genome fraction (%)             96.901     
+Duplication ratio               1.015      
+Avg contig read support         -          
+# N's per 100 kbp               0.00       
+# mismatches per 100 kbp        211.81     
+# indels per 100 kbp            21.60      
+# genomic features              -          
+# operons                       -          
+Complete BUSCO (%)              -          
+Partial BUSCO (%)               -          
+# predicted genes (unique)      -          
+# predicted genes (>= 0 bp)     -          
+# predicted genes (>= 300 bp)   -          
+# predicted genes (>= 1500 bp)  -          
+# predicted genes (>= 3000 bp)  -          
+# predicted rRNA genes          -          
+Largest alignment               765542     
+Total aligned length            11956409   
+NA50                            267325     
+NGA50                           267325     
+NA90                            107862     
+NGA90                           95271      
+auNA                            349090.8   
+auNGA                           346051.8   
+LA50                            13         
+LGA50                           13         
+LA90                            41         
+LGA90                           42         
+K-mer-based compl. (%)          -          
+K-mer-based cor. length (%)     -          
+K-mer-based mis. length (%)     -          
+# k-mer-based misjoins          -          
