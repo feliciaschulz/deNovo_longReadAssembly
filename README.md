@@ -72,3 +72,16 @@ This took 2919.665494 seconds (49 minutes) when using only one thread.
 raven ../Data/SRR13577846.fastq --resume > SRRoutput.fa
 ```
 
+## QUAST
+### QUAST version
+```bash
+conda activate quast
+quast -v
+```
+QUAST was run using version 5.2.0
+
+### Running QUAST with conda
+```bash
+quast -o Quast Assembly/SRRoutput.fasta
+```
+
