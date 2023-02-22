@@ -29,14 +29,14 @@ cat SRR13577846.fastq | wc -l #470100
 ```
 
 ## FastQC
-# Preparation
+### Preparation
 ```bash
 mkdir FastQC
 cd ..
 conda activate fastqc
 ```
 
-# Fastqc
+### Fastqc
 ```bash
 fastqc -o FastQC Data/SRR13577846.fastq
 ```
