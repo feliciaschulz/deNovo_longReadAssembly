@@ -61,5 +61,14 @@ raven --version
 ```
 Raven was used with version 1.8.1
 
+### Running raven
+```bash
+raven ../Data/SRR13577846.fastq
+```
+This took 2919.665494 seconds (49 minutes) when using only one thread.
 
+### Saving the output
+```bash
+raven ../Data/SRR13577846.fastq --resume > SRRoutput.fa
+```
 
