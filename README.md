@@ -19,7 +19,7 @@ By doing this, a reproducible workflow can be ensured.
 
 ```bash
 git init
-git remote add origin # origin address
+git remote add origin # <origin address>
 git fetch
 git pull origin main
 ```
@@ -105,6 +105,7 @@ QUAST was run using version 5.2.0
 ```bash
 quast -o Quast Assembly/SRRoutput.fasta
 ```
+The quast summarises the assembly in the following way: There are 22 contigs, the largest being 1495363 base pairs long. The total length of the contigs is 12051270bp. The N50 is 802231, which means that the smallest contig which makes up for 50% of the genome is 802231 base pairs long. The GC content is 38.32%.
 
 
 ### QUAST with reference genome
@@ -116,7 +117,11 @@ quast -r GCF_000146045.2_R64_genomic.fna -t 1 ../../Assembly/SRRoutput.fasta
 ```
 The specification -t 1 had to be used because of an error, but did not slow down the process.
 
+The QUAST analysis with the reference genome showed that there were 211.81 mismatches per 100 kbp. The length of the misassembled contigs is 11372283bp. The total aligned length is 11956409. There are 21.6 indels per 100 kbp. The NGA50 is 267325bp. NGA50 is similar to N50, just that it counts the length of the longest aligned sequences rather than the length of the contigs themselves.
+
+
 ### Adding the reference to gitignore
+The reference genome is likely too large to push to the remote repository and is therefore added to .gitignore
 ```bash
 echo "GCF*" >> .gitignore
 ```
@@ -147,8 +152,7 @@ mkdir busco
 cd busco
 busco -i ../Assembly/SRRoutput.fasta -o busco_output -m genome
 ```
-
-
+The BUSCO analysis out put shows 2137 total BUSCO groups searched. Among this are 2120 complete BUSCOS (99.6%), 2 fragmented BUSCOs (0.1%) and 6 missing BUSCOS (0.3%). A complete busco score above 95% is considered good, therefore these are good results. This suggests that there are in fact highly conserved genes in the assembly.
 
 
 
