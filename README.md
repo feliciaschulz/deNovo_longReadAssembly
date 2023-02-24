@@ -1,7 +1,21 @@
 # De Novo Long Read Assembly
+In this assembly we will first investigate the data, then assemble the reads and then run more analyses on the assembled genome. The structure of this README file is the following:  
+1. Git Repository  
+2. Downloading the data  
+3. FastQC  
+4. Genome Assembly
+5. QUAST  
+6. BUSCO
+
+The data used here is a fastq file consisting of 117,525 reads. The sequenced reads are from the organism Saccharomyces cerevisiae. The data can be found and downloaded from here: https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR13577846&display=metadata
+
+
 
 ## Git Repository
 ### Initialising a Git repository and linking it to GitHub
+
+First, a Git repository must be created and linked to the private remote repository https://github.com/feliciaschulz/deNovo_longReadAssembly.git.  
+By doing this, a reproducible workflow can be ensured.
 
 ```bash
 git init
@@ -11,12 +25,14 @@ git pull origin main
 ```
 
 ## Downloading the data
+As stated above, the data was downloaded from https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR13577846&display=metadata.
 ### Unzipping the data
 ```bash
 gunzip
 ```
 
 ### Adding the data to gitignore
+This fastq file is very large and it will not be possible to commit it to the remote repository as GitHub has a file size limit. On top of that, it is not considered good practice to have all datasets on a Git repository, only small sample sets.
 ```bash
 echo ".fastq" >> .gitignore
 ```
@@ -27,8 +43,10 @@ less SRR13577846.fastq
 cat SRR13577846.fastq | grep -c + #117525
 cat SRR13577846.fastq | wc -l #470100
 ```
+The data has 117252 reads.
 
 ## FastQC
+FastQC is a bioinformatics tool which provides quality control for raw sequence data.
 ### Preparation
 ```bash
 mkdir FastQC
@@ -38,17 +56,18 @@ fastqc -v # Check version
 ```
 The FastQC version that was used is v0.11.9.
 
-### Fastqc
+### FastQC analysis
 ```bash
 fastqc -o FastQC Data/SRR13577846.fastq
 ```
-The quality of the data seems good overall. In the per base sequence content graph, at the very end, it seemed like the sequence only consisted of Gs. Otherwise, the graphs seemed good.
+The quality of the data seems good overall. In the per base sequence content graph, at the very end, it seemed like the sequence only consisted of Gs. When investigating the data further, it becomes clear that this is the case because the longest read has a G at the end, and it is the only one which falls into the uppermost length category on this FastQC graph. This is why suddenly it looks like at that base pair index, there are 100% Gs. Hence, this is not a problem whatsoever. The other graphs all look very good.
 
 ## Genome Assembly
 For the genome assembly, the long-read assembler Raven was chosen. In various different sources, it is stated that this assembler has good accuracy (though some weaknesses) and is very fast. Therefore, for the sake of finding whether this fast assembler can still compete with  others such as Hifi, this one was chosen.
 
-Sources: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6966772/
-https://www.frontiersin.org/articles/10.3389/fmicb.2022.796465/full
+Sources:  
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6966772/  
+https://www.frontiersin.org/articles/10.3389/fmicb.2022.796465/full  
 https://www.biorxiv.org/content/10.1101/2020.08.07.242461v2.full
 
 
@@ -68,11 +87,13 @@ raven ../Data/SRR13577846.fastq
 This took 2919.665494 seconds (49 minutes) when using only one thread.
 
 ### Saving the output
+With raven, the output is not saved to an output file immediately. Therefore, you can either save it immediately when initially running, or save it with an additional command afterwards, just like here. 
 ```bash
-raven ../Data/SRR13577846.fastq --resume > SRRoutput.fa
+raven ../Data/SRR13577846.fastq --resume > SRRoutput.fasta
 ```
 
 ## QUAST
+QUAST is a bioinformatics tool which evaluates the quality of genome assemblies.
 ### QUAST version
 ```bash
 conda activate quast
@@ -84,6 +105,7 @@ QUAST was run using version 5.2.0
 ```bash
 quast -o Quast Assembly/SRRoutput.fasta
 ```
+
 
 ### QUAST with reference genome
 The reference genome was obtained from https://www.ncbi.nlm.nih.gov/data-hub/taxonomy/4932/ .
