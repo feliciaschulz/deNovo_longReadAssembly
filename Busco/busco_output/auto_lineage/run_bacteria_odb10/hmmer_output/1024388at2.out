@@ -1,0 +1,15 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+Utg33280_966         -            385 1024388at2           -            308  1.4e-117  391.2   1.8   1   1  2.6e-118  1.1e-114  381.7   1.8     1   306     8   381     8   383 0.84 # 1423553 # 1424707 # -1 # ID=16_966;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.420
+Utg33254_315         -            383 1024388at2           -            308  1.6e-117  391.0   3.8   1   1  2.2e-118  8.8e-115  381.9   3.8     1   305     6   378     6   381 0.85 # 484100 # 485248 # 1 # ID=3_315;partial=00;start_type=ATG;rbs_motif=AATAA;rbs_spacer=13bp;gc_cont=0.474
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_downloads/lineages/bacteria_odb10/hmms/1024388at2.hmm
+# Target file:     /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/auto_lineage/run_bacteria_odb10/hmmer_output/1024388at2.out --cpu 1 /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_downloads/lineages/bacteria_odb10/hmms/1024388at2.hmm /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco
+# Date:            Fri Feb 24 11:43:26 2023
+# [ok]

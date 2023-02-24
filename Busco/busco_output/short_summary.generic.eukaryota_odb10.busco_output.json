@@ -1,0 +1,63 @@
+{
+    "parameters": {
+        "out_path": "/home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco",
+        "cpu": "1",
+        "force": "False",
+        "restart": "False",
+        "quiet": "False",
+        "download_path": "/home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_downloads",
+        "datasets_version": "odb10",
+        "offline": "False",
+        "download_base_url": "https://busco-data.ezlab.org/v5/data/",
+        "auto-lineage": "True",
+        "auto-lineage-prok": "False",
+        "auto-lineage-euk": "False",
+        "update-data": "False",
+        "use_augustus": "False",
+        "batch_mode": "False",
+        "tar": "False",
+        "in": "/home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Assembly/SRRoutput.fasta",
+        "out": "busco_output",
+        "mode": "euk_genome_met",
+        "main_out": "/home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output",
+        "lineage_results_dir": "run_eukaryota_odb10",
+        "lineage_dataset": "/home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_downloads/lineages/eukaryota_odb10",
+        "domain": "eukaryota",
+        "max_intron": "130000",
+        "max_seq_len": "160000",
+        "metaeuk_parameters": "",
+        "metaeuk_rerun_parameters": "",
+        "contig_break": "10",
+        "scaffold_composition": "False",
+        "gene_predictor": "metaeuk"
+    },
+    "lineage_dataset": {
+        "name": "eukaryota_odb10",
+        "creation_date": "2020-09-10",
+        "number_of_buscos": "255",
+        "number_of_species": "70"
+    },
+    "versions": {
+        "hmmsearch": 3.1,
+        "bbtools": "39.01",
+        "prodigal": "2.6.3",
+        "busco": "5.4.4",
+        "metaeuk": "6.a5d39d9"
+    },
+    "results": {
+        "one_line_summary": "C:93.3%[S:92.5%,D:0.8%],F:1.2%,M:5.5%,n:255",
+        "Complete": 93.3,
+        "Single copy": 92.5,
+        "Multi copy": 0.8,
+        "Fragmented": 1.2,
+        "Missing": 5.5,
+        "n_markers": 255,
+        "domain": "eukaryota",
+        "Number of scaffolds": "22",
+        "Number of contigs": "22",
+        "Total length": "12051270",
+        "Percent gaps": "0.000%",
+        "Scaffold N50": "802231",
+        "Contigs N50": "802231"
+    }
+}

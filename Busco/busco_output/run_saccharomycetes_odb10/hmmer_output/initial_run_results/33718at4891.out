@@ -1,0 +1,15 @@
+#                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name          accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#  ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+Utg33250:147217-147714 -            166 33718at4891          -             88   6.6e-30  100.6   1.3   1   2   4.7e-15   1.3e-11   42.0   0.1     9    39    50    80    34    93 0.86 -
+Utg33250:147217-147714 -            166 33718at4891          -             88   6.6e-30  100.6   1.3   2   2   5.5e-20   1.5e-16   57.8   0.1    38    88   108   158   102   158 0.93 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_downloads/lineages/saccharomycetes_odb10/hmms/33718at4891.hmm
+# Target file:     /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/run_saccharomycetes_odb10/metaeuk_output/initial_results/SRRoutput.fasta.modified.fas
+# Option settings: hmmsearch --domtblout /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/run_saccharomycetes_odb10/hmmer_output/initial_run_results/33718at4891.out --cpu 1 /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_downloads/lineages/saccharomycetes_odb10/hmms/33718at4891.hmm /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/run_saccharomycetes_odb10/metaeuk_output/initial_results/SRRoutput.fasta.modified.fas 
+# Current dir:     /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco
+# Date:            Fri Feb 24 12:02:58 2023
+# [ok]

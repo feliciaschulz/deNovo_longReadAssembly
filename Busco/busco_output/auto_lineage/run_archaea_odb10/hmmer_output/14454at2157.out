@@ -1,0 +1,22 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+Utg33262_108         -            693 14454at2157          -            352  1.1e-102  342.3   0.2   1   1  1.8e-105  2.8e-102  341.0   0.2     2   321   202   567   201   581 0.85 # 152600 # 154678 # 1 # ID=7_108;partial=00;start_type=ATG;rbs_motif=AACAA;rbs_spacer=8bp;gc_cont=0.436
+Utg33278_250         -            607 14454at2157          -            352   2.2e-15   55.2   0.0   1   2   2.8e-10   4.6e-07   27.8   0.0    77   151   139   213   124   223 0.87 # 331564 # 333384 # 1 # ID=15_250;partial=00;start_type=TTG;rbs_motif=AACAA;rbs_spacer=13bp;gc_cont=0.384
+Utg33278_250         -            607 14454at2157          -            352   2.2e-15   55.2   0.0   2   2   2.1e-09   3.5e-06   25.0   0.0   183   262   407   491   403   511 0.85 # 331564 # 333384 # 1 # ID=15_250;partial=00;start_type=TTG;rbs_motif=AACAA;rbs_spacer=13bp;gc_cont=0.384
+Utg33284_53          -            463 14454at2157          -            352   1.7e-06   26.0   0.0   1   2   0.00012      0.19    9.4   0.0    35   152    83   201    56   216 0.73 # 84556 # 85944 # -1 # ID=18_53;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.391
+Utg33284_53          -            463 14454at2157          -            352   1.7e-06   26.0   0.0   2   2   4.4e-06    0.0072   14.0   0.0   168   281   267   384   240   399 0.81 # 84556 # 85944 # -1 # ID=18_53;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.391
+Utg33266_64          -            619 14454at2157          -            352   6.2e-06   24.1   0.0   1   2    0.0063        10    3.7   0.0   101   144   207   250   176   270 0.76 # 89261 # 91117 # -1 # ID=9_64;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.392
+Utg33266_64          -            619 14454at2157          -            352   6.2e-06   24.1   0.0   2   2   2.8e-07   0.00046   18.0   0.0   229   319   486   582   473   599 0.86 # 89261 # 91117 # -1 # ID=9_64;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.392
+Utg33286_325         -            668 14454at2157          -            352    0.0033   15.2   0.0   1   2     0.033        53    1.3   0.0   103   136   250   283   244   307 0.76 # 467435 # 469438 # -1 # ID=19_325;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.393
+Utg33286_325         -            668 14454at2157          -            352    0.0033   15.2   0.0   2   2   3.2e-05     0.053   11.2   0.0   238   319   538   624   531   638 0.87 # 467435 # 469438 # -1 # ID=19_325;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.393
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_downloads/lineages/archaea_odb10/hmms/14454at2157.hmm
+# Target file:     /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/auto_lineage/run_archaea_odb10/hmmer_output/14454at2157.out --cpu 1 /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_downloads/lineages/archaea_odb10/hmms/14454at2157.hmm /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco
+# Date:            Fri Feb 24 11:42:46 2023
+# [ok]

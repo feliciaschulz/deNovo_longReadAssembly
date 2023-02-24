@@ -1,0 +1,16 @@
+#                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name          accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#  ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+Utg33274:605585-606058 -            158 33119at4891          -            132   6.5e-81  266.3   5.6   1   1   8.4e-84   7.5e-81  266.1   5.6     1   132     3   135     3   135 0.99 -
+Utg33280:58334-58954   -            207 33119at4891          -            132   4.7e-10   37.1   0.6   1   1   5.2e-13   4.7e-10   37.1   0.6    23   109    88   175    75   190 0.85 -
+Utg33272:663802-664464 -            221 33119at4891          -            132   2.3e-05   21.9   0.4   1   1     4e-08   3.6e-05   21.3   0.4    30   113   118   202    98   217 0.76 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_downloads/lineages/saccharomycetes_odb10/hmms/33119at4891.hmm
+# Target file:     /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/run_saccharomycetes_odb10/metaeuk_output/initial_results/SRRoutput.fasta.modified.fas
+# Option settings: hmmsearch --domtblout /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/run_saccharomycetes_odb10/hmmer_output/initial_run_results/33119at4891.out --cpu 1 /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_downloads/lineages/saccharomycetes_odb10/hmms/33119at4891.hmm /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/run_saccharomycetes_odb10/metaeuk_output/initial_results/SRRoutput.fasta.modified.fas 
+# Current dir:     /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco
+# Date:            Fri Feb 24 12:02:57 2023
+# [ok]

@@ -1,0 +1,22 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+Utg33280_377         -            249 60670at2157          -            186   1.6e-05   23.7   0.0   1   2   1.1e-06    0.0015   17.3   0.0    44    88    70   114    21   126 0.84 # 532667 # 533413 # -1 # ID=16_377;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.440
+Utg33280_377         -            249 60670at2157          -            186   1.6e-05   23.7   0.0   2   2     0.013        17    4.0   0.0    97   131   154   188   131   194 0.80 # 532667 # 533413 # -1 # ID=16_377;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.440
+Utg33264_104         -            592 60670at2157          -            186   0.00025   19.8   0.7   1   2    0.0038       5.1    5.8   0.1   124   167   408   452   394   472 0.78 # 160476 # 162251 # -1 # ID=8_104;partial=00;start_type=ATG;rbs_motif=AACAA;rbs_spacer=9bp;gc_cont=0.411
+Utg33264_104         -            592 60670at2157          -            186   0.00025   19.8   0.7   2   2   3.5e-05     0.048   12.4   0.1   134   165   480   511   455   522 0.88 # 160476 # 162251 # -1 # ID=8_104;partial=00;start_type=ATG;rbs_motif=AACAA;rbs_spacer=9bp;gc_cont=0.411
+Utg33282_163         -            299 60670at2157          -            186   0.00026   19.8   0.1   1   1   4.2e-07   0.00057   18.6   0.1   138   184   206   252   192   254 0.87 # 259710 # 260606 # -1 # ID=17_163;partial=00;start_type=ATG;rbs_motif=AAAAAA;rbs_spacer=7bp;gc_cont=0.467
+Utg33272_12          -            299 60670at2157          -            186   0.00026   19.8   0.1   1   1   4.2e-07   0.00057   18.6   0.1   138   184   206   252   192   254 0.87 # 14218 # 15114 # 1 # ID=12_12;partial=00;start_type=ATG;rbs_motif=AAAAAA;rbs_spacer=7bp;gc_cont=0.467
+Utg33284_33          -            485 60670at2157          -            186    0.0029   16.4   0.0   1   2       1.1   1.5e+03   -2.3   0.0   146   166   393   413   392   416 0.86 # 44001 # 45455 # -1 # ID=18_33;partial=00;start_type=ATG;rbs_motif=AAGAA;rbs_spacer=4bp;gc_cont=0.434
+Utg33284_33          -            485 60670at2157          -            186    0.0029   16.4   0.0   2   2   5.9e-06    0.0079   14.9   0.0   126   183   426   483   420   484 0.91 # 44001 # 45455 # -1 # ID=18_33;partial=00;start_type=ATG;rbs_motif=AAGAA;rbs_spacer=4bp;gc_cont=0.434
+Utg33264_279         -            298 60670at2157          -            186    0.0039   15.9   0.1   1   1   6.9e-06    0.0093   14.7   0.1   138   184   207   253   193   255 0.87 # 430135 # 431028 # 1 # ID=8_279;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.430
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_downloads/lineages/archaea_odb10/hmms/60670at2157.hmm
+# Target file:     /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/auto_lineage/run_archaea_odb10/hmmer_output/60670at2157.out --cpu 1 /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_downloads/lineages/archaea_odb10/hmms/60670at2157.hmm /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco
+# Date:            Fri Feb 24 11:42:49 2023
+# [ok]

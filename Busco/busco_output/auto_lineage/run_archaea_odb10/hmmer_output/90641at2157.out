@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+Utg33266_71          -            542 90641at2157          -            227   2.5e-43  146.9   0.2   1   2   6.1e-47   2.5e-43  146.9   0.2    42   227   105   303    36   303 0.86 # 98550 # 100175 # -1 # ID=9_71;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.419
+Utg33266_71          -            542 90641at2157          -            227   2.5e-43  146.9   0.2   2   2      0.51   2.1e+03   -3.3   0.1    50    69   364   383   319   388 0.59 # 98550 # 100175 # -1 # ID=9_71;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.419
+Utg33280_690         -            622 90641at2157          -            227   1.4e-36  124.8   0.2   1   2   1.4e-14   5.6e-11   41.1   0.0    38    96   389   452   359   460 0.85 # 1013555 # 1015420 # -1 # ID=16_690;partial=00;start_type=ATG;rbs_motif=AATAA;rbs_spacer=11bp;gc_cont=0.371
+Utg33280_690         -            622 90641at2157          -            227   1.4e-36  124.8   0.2   2   2   7.1e-27   2.9e-23   81.3   0.2   111   227   491   620   475   620 0.81 # 1013555 # 1015420 # -1 # ID=16_690;partial=00;start_type=ATG;rbs_motif=AATAA;rbs_spacer=11bp;gc_cont=0.371
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_downloads/lineages/archaea_odb10/hmms/90641at2157.hmm
+# Target file:     /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/auto_lineage/run_archaea_odb10/hmmer_output/90641at2157.out --cpu 1 /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_downloads/lineages/archaea_odb10/hmms/90641at2157.hmm /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco
+# Date:            Fri Feb 24 11:42:51 2023
+# [ok]

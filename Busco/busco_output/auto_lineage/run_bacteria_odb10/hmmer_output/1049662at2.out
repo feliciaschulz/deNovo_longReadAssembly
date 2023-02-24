@@ -1,0 +1,19 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+Utg33254_109         -            592 1049662at2           -            438  2.8e-120  400.9   1.3   1   3   8.2e-74   3.3e-70  235.9   0.0     2   235     6   277     5   283 0.85 # 185197 # 186972 # -1 # ID=3_109;partial=00;start_type=ATG;rbs_motif=AAAAAA;rbs_spacer=14bp;gc_cont=0.432
+Utg33254_109         -            592 1049662at2           -            438  2.8e-120  400.9   1.3   2   3   8.9e-36   3.6e-32  110.6   0.8   235   376   298   461   295   464 0.84 # 185197 # 186972 # -1 # ID=3_109;partial=00;start_type=ATG;rbs_motif=AAAAAA;rbs_spacer=14bp;gc_cont=0.432
+Utg33254_109         -            592 1049662at2           -            438  2.8e-120  400.9   1.3   3   3   2.3e-17   9.4e-14   49.9   0.0   377   438   530   591   522   591 0.96 # 185197 # 186972 # -1 # ID=3_109;partial=00;start_type=ATG;rbs_motif=AAAAAA;rbs_spacer=14bp;gc_cont=0.432
+Utg33264_321         -            593 1049662at2           -            438  8.3e-120  399.4   0.5   1   3   8.3e-75   3.4e-71  239.2   0.0     2   235     6   277     5   281 0.84 # 485500 # 487278 # -1 # ID=8_321;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.413
+Utg33264_321         -            593 1049662at2           -            438  8.3e-120  399.4   0.5   2   3   2.2e-34     9e-31  106.0   0.3   235   376   298   461   295   465 0.82 # 485500 # 487278 # -1 # ID=8_321;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.413
+Utg33264_321         -            593 1049662at2           -            438  8.3e-120  399.4   0.5   3   3   3.5e-17   1.4e-13   49.3   0.0   377   438   531   592   525   592 0.96 # 485500 # 487278 # -1 # ID=8_321;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.413
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_downloads/lineages/bacteria_odb10/hmms/1049662at2.hmm
+# Target file:     /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/auto_lineage/run_bacteria_odb10/hmmer_output/1049662at2.out --cpu 1 /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_downloads/lineages/bacteria_odb10/hmms/1049662at2.hmm /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco
+# Date:            Fri Feb 24 11:43:26 2023
+# [ok]

@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+Utg33258_101         -             93 1713391at2           -             97     7e-05   22.3   4.3   1   1   6.8e-07    0.0018   17.7   4.3    39    96     9    88     1    89 0.67 # 156085 # 156363 # 1 # ID=5_101;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.484
+Utg33274_432         -             93 1713391at2           -             97     7e-05   22.3   4.3   1   1   6.8e-07    0.0018   17.7   4.3    39    96     9    88     1    89 0.67 # 678529 # 678807 # -1 # ID=13_432;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.509
+Utg33272_41          -            218 1713391at2           -             97    0.0069   15.9   0.1   1   1   0.00013      0.36   10.4   0.1    68    96   188   216   104   217 0.66 # 59107 # 59760 # 1 # ID=12_41;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.410
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_downloads/lineages/bacteria_odb10/hmms/1713391at2.hmm
+# Target file:     /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/auto_lineage/run_bacteria_odb10/hmmer_output/1713391at2.out --cpu 1 /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_downloads/lineages/bacteria_odb10/hmms/1713391at2.hmm /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco
+# Date:            Fri Feb 24 11:43:28 2023
+# [ok]

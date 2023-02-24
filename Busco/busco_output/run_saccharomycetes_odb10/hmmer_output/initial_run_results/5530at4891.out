@@ -1,0 +1,23 @@
+#                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name          accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#  ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+Utg33280:806829-808466 -            546 5530at4891           -            453  7.8e-237  783.5   3.8   1   1  1.1e-238  3.4e-236  781.4   3.8     1   453     2   542     2   542 0.90 -
+Utg33274:349475-351082 -            536 5530at4891           -            453   9.1e-48  160.3   2.7   1   2   1.6e-28   4.6e-26   88.8   1.0     4   151     9   157     6   188 0.87 -
+Utg33274:349475-351082 -            536 5530at4891           -            453   9.1e-48  160.3   2.7   2   2   3.7e-23   1.1e-20   71.1   0.0   180   400   218   460   211   467 0.84 -
+Utg33274:189112-190770 -            553 5530at4891           -            453     1e-45  153.5   1.0   1   1   5.2e-48   1.5e-45  153.0   1.0    17   400    37   476    25   495 0.81 -
+Utg33280:190327-191910 -            528 5530at4891           -            453   2.1e-42  142.6   6.1   1   1     1e-44     3e-42  142.1   6.1    16   406    19   464    10   485 0.79 -
+Utg33280:857646-859313 -            556 5530at4891           -            453   3.1e-41  138.8   7.5   1   1   1.8e-43   5.4e-41  138.0   7.5    14   399    19   460    11   472 0.79 -
+Utg33274:549113-550762 -            550 5530at4891           -            453   8.5e-40  134.0   2.4   1   1     5e-42   1.5e-39  133.3   2.4    19   401    27   456    11   476 0.82 -
+Utg33276:82831-84411   -            527 5530at4891           -            453   4.4e-38  128.4   6.5   1   1   2.7e-40   8.1e-38  127.5   6.5    13   437    14   501     2   518 0.74 -
+Utg33274:336971-338674 -            568 5530at4891           -            453   5.2e-29   98.5   2.5   1   1   5.6e-31   1.7e-28   96.8   2.5    21   401    31   466    22   478 0.79 -
+Utg33282:79142-85510   -           2123 5530at4891           -            453    0.0013   14.7   0.0   1   1   8.7e-06    0.0026   13.8   0.0   179   315   702   828   659   867 0.78 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_downloads/lineages/saccharomycetes_odb10/hmms/5530at4891.hmm
+# Target file:     /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/run_saccharomycetes_odb10/metaeuk_output/initial_results/SRRoutput.fasta.modified.fas
+# Option settings: hmmsearch --domtblout /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/run_saccharomycetes_odb10/hmmer_output/initial_run_results/5530at4891.out --cpu 1 /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_downloads/lineages/saccharomycetes_odb10/hmms/5530at4891.hmm /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/run_saccharomycetes_odb10/metaeuk_output/initial_results/SRRoutput.fasta.modified.fas 
+# Current dir:     /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco
+# Date:            Fri Feb 24 12:03:19 2023
+# [ok]

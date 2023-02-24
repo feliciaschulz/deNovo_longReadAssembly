@@ -1,0 +1,21 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+Utg33280_730         -            382 61613at2157          -            354   1.4e-21   75.3   0.0   1   2   7.2e-24   1.5e-20   72.0   0.0    35   177    45   193    34   217 0.85 # 1079111 # 1080256 # 1 # ID=16_730;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.408
+Utg33280_730         -            382 61613at2157          -            354   1.4e-21   75.3   0.0   2   2     0.025        50    1.1   0.0   242   340   278   373   257   379 0.68 # 1079111 # 1080256 # 1 # ID=16_730;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.408
+Utg33254_280         -            363 61613at2157          -            354   1.8e-19   68.4   0.1   1   2   2.5e-20   5.1e-17   60.3   0.1    38   177    27   173    13   221 0.83 # 447804 # 448892 # -1 # ID=3_280;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.444
+Utg33254_280         -            363 61613at2157          -            354   1.8e-19   68.4   0.1   2   2   0.00074       1.5    6.1   0.0   234   288   248   309   239   317 0.69 # 447804 # 448892 # -1 # ID=3_280;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.444
+Utg33254_284         -            363 61613at2157          -            354   1.8e-19   68.4   0.1   1   2   2.5e-20   5.1e-17   60.3   0.1    38   177    27   173    13   221 0.83 # 451456 # 452544 # -1 # ID=3_284;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.444
+Utg33254_284         -            363 61613at2157          -            354   1.8e-19   68.4   0.1   2   2   0.00074       1.5    6.1   0.0   234   288   248   309   239   317 0.69 # 451456 # 452544 # -1 # ID=3_284;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.444
+Utg33254_288         -            363 61613at2157          -            354   1.8e-19   68.4   0.1   1   2   2.5e-20   5.1e-17   60.3   0.1    38   177    27   173    13   221 0.83 # 455108 # 456196 # -1 # ID=3_288;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.444
+Utg33254_288         -            363 61613at2157          -            354   1.8e-19   68.4   0.1   2   2   0.00074       1.5    6.1   0.0   234   288   248   309   239   317 0.69 # 455108 # 456196 # -1 # ID=3_288;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.444
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_downloads/lineages/archaea_odb10/hmms/61613at2157.hmm
+# Target file:     /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/auto_lineage/run_archaea_odb10/hmmer_output/61613at2157.out --cpu 1 /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_downloads/lineages/archaea_odb10/hmms/61613at2157.hmm /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco
+# Date:            Fri Feb 24 11:42:49 2023
+# [ok]

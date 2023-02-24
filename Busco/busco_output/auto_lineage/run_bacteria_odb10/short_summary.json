@@ -1,0 +1,61 @@
+{
+    "parameters": {
+        "out_path": "/home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco",
+        "cpu": "1",
+        "force": "False",
+        "restart": "False",
+        "quiet": "False",
+        "download_path": "/home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_downloads",
+        "datasets_version": "odb10",
+        "offline": "False",
+        "download_base_url": "https://busco-data.ezlab.org/v5/data/",
+        "auto-lineage": "True",
+        "auto-lineage-prok": "False",
+        "auto-lineage-euk": "False",
+        "update-data": "False",
+        "use_augustus": "False",
+        "batch_mode": "False",
+        "tar": "False",
+        "in": "/home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Assembly/SRRoutput.fasta",
+        "out": "busco_output",
+        "mode": "prok_genome",
+        "main_out": "/home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output",
+        "lineage_results_dir": "run_bacteria_odb10",
+        "lineage_dataset": "/home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_downloads/lineages/bacteria_odb10",
+        "domain": "prokaryota",
+        "prodigal_genetic_code": "11,4",
+        "ambiguous_cd_range_lower": "0.73",
+        "ambiguous_cd_range_upper": "0.8",
+        "contig_break": "10",
+        "scaffold_composition": "False",
+        "gene_predictor": "prodigal"
+    },
+    "lineage_dataset": {
+        "name": "bacteria_odb10",
+        "creation_date": "2020-03-06",
+        "number_of_buscos": "124",
+        "number_of_species": "4085"
+    },
+    "versions": {
+        "hmmsearch": 3.1,
+        "bbtools": "39.01",
+        "prodigal": "2.6.3",
+        "busco": "5.4.4"
+    },
+    "results": {
+        "one_line_summary": "C:34.6%[S:29.0%,D:5.6%],F:13.7%,M:51.7%,n:124",
+        "Complete": 34.6,
+        "Single copy": 29.0,
+        "Multi copy": 5.6,
+        "Fragmented": 13.7,
+        "Missing": 51.7,
+        "n_markers": 124,
+        "domain": "prokaryota",
+        "Number of scaffolds": "22",
+        "Number of contigs": "22",
+        "Total length": "12051270",
+        "Percent gaps": "0.000%",
+        "Scaffold N50": "802231",
+        "Contigs N50": "802231"
+    }
+}

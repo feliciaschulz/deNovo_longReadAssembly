@@ -1,0 +1,22 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+Utg33252_706         -            803 932854at2            -           1620  4.2e-163  543.7   0.3   1   1  3.2e-166  5.2e-163  543.4   0.3     2   430     2   454     1   483 0.92 # 1046232 # 1048640 # -1 # ID=2_706;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.448
+Utg33252_314         -           1359 932854at2            -           1620   7.3e-45  151.8   0.0   1   4   2.6e-05     0.042   10.0   0.1   588   665   204   282   176   292 0.86 # 471259 # 475335 # 1 # ID=2_314;partial=00;start_type=ATG;rbs_motif=AACAA;rbs_spacer=15bp;gc_cont=0.407
+Utg33252_314         -           1359 932854at2            -           1620   7.3e-45  151.8   0.0   2   4   4.2e-32   6.8e-29   98.8   0.0   731  1196   325   826   312   850 0.80 # 471259 # 475335 # 1 # ID=2_314;partial=00;start_type=ATG;rbs_motif=AACAA;rbs_spacer=15bp;gc_cont=0.407
+Utg33252_314         -           1359 932854at2            -           1620   7.3e-45  151.8   0.0   3   4      0.11   1.8e+02   -2.0   0.1   534   617   975  1060   930  1079 0.72 # 471259 # 475335 # 1 # ID=2_314;partial=00;start_type=ATG;rbs_motif=AACAA;rbs_spacer=15bp;gc_cont=0.407
+Utg33252_314         -           1359 932854at2            -           1620   7.3e-45  151.8   0.0   4   4   7.8e-14   1.3e-10   38.3   0.0  1364  1595  1088  1324   977  1332 0.73 # 471259 # 475335 # 1 # ID=2_314;partial=00;start_type=ATG;rbs_motif=AACAA;rbs_spacer=15bp;gc_cont=0.407
+Utg33270_117         -            307 932854at2            -           1620   1.5e-10   38.0   0.0   1   2   1.1e-06    0.0017   14.6   0.0   544   689    84   223    35   228 0.73 # 168541 # 169461 # 1 # ID=11_117;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.433
+Utg33270_117         -            307 932854at2            -           1620   1.5e-10   38.0   0.0   2   2   7.2e-09   1.2e-05   21.8   0.0   753   816   228   302   224   305 0.84 # 168541 # 169461 # 1 # ID=11_117;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.433
+Utg33286_451         -           1181 932854at2            -           1620     8e-07   25.7   0.1   1   1   7.5e-10   1.2e-06   25.1   0.1    51   186    84   225    70   236 0.85 # 650626 # 654168 # -1 # ID=19_451;partial=00;start_type=ATG;rbs_motif=AACAA;rbs_spacer=8bp;gc_cont=0.432
+Utg33252_496         -           1179 932854at2            -           1620   1.7e-06   24.6   0.0   1   1   1.5e-09   2.4e-06   24.1   0.0    52   186    84   224    71   235 0.83 # 704189 # 707725 # -1 # ID=2_496;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.434
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_downloads/lineages/bacteria_odb10/hmms/932854at2.hmm
+# Target file:     /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/auto_lineage/run_bacteria_odb10/hmmer_output/932854at2.out --cpu 1 /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_downloads/lineages/bacteria_odb10/hmms/932854at2.hmm /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco
+# Date:            Fri Feb 24 11:43:31 2023
+# [ok]

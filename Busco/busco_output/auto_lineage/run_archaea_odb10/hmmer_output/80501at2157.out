@@ -1,0 +1,27 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+Utg33260_375         -            275 80501at2157          -            175   2.4e-24   84.8   0.0   1   1   1.8e-27   3.6e-24   84.3   0.0     4   174    99   272    96   273 0.89 # 577463 # 578287 # -1 # ID=6_375;partial=00;start_type=ATG;rbs_motif=AATAA;rbs_spacer=8bp;gc_cont=0.419
+Utg33258_219         -            317 80501at2157          -            175   1.3e-16   59.6   1.4   1   3   7.8e-20   1.6e-16   59.4   0.0    28   150    68   188    45   194 0.85 # 324176 # 325126 # 1 # ID=5_219;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.386
+Utg33258_219         -            317 80501at2157          -            175   1.3e-16   59.6   1.4   2   3       1.6   3.2e+03   -3.5   0.0    83   105   223   245   217   248 0.72 # 324176 # 325126 # 1 # ID=5_219;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.386
+Utg33258_219         -            317 80501at2157          -            175   1.3e-16   59.6   1.4   3   3       1.3   2.7e+03   -3.2   0.3    25    31   285   291   271   309 0.50 # 324176 # 325126 # 1 # ID=5_219;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.386
+Utg33274_297         -           1223 80501at2157          -            175   5.1e-13   48.0  19.1   1   7   1.2e-05     0.025   13.2   1.1     4    99   182   285   179   301 0.76 # 469409 # 473077 # 1 # ID=13_297;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.396
+Utg33274_297         -           1223 80501at2157          -            175   5.1e-13   48.0  19.1   2   7   2.2e-06    0.0045   15.6   0.1     2    47   637   682   636   693 0.86 # 469409 # 473077 # 1 # ID=13_297;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.396
+Utg33274_297         -           1223 80501at2157          -            175   5.1e-13   48.0  19.1   3   7    0.0028       5.7    5.5   0.0     3    48   716   761   714   778 0.82 # 469409 # 473077 # 1 # ID=13_297;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.396
+Utg33274_297         -           1223 80501at2157          -            175   5.1e-13   48.0  19.1   4   7   0.00076       1.5    7.3   0.1     2    48   785   831   784   848 0.85 # 469409 # 473077 # 1 # ID=13_297;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.396
+Utg33274_297         -           1223 80501at2157          -            175   5.1e-13   48.0  19.1   5   7       1.3   2.6e+03   -3.2   0.1     2    30   864   892   863   915 0.80 # 469409 # 473077 # 1 # ID=13_297;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.396
+Utg33274_297         -           1223 80501at2157          -            175   5.1e-13   48.0  19.1   6   7   2.9e-05     0.058   11.9   0.1     2    45   942   988   941  1006 0.77 # 469409 # 473077 # 1 # ID=13_297;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.396
+Utg33274_297         -           1223 80501at2157          -            175   5.1e-13   48.0  19.1   7   7     0.063   1.3e+02    1.1   0.1     9    43  1163  1197  1161  1217 0.80 # 469409 # 473077 # 1 # ID=13_297;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.396
+Utg33286_467         -            414 80501at2157          -            175    0.0023   16.5   0.2   1   3     0.041        82    1.7   0.0    13    38    80   105    76   127 0.87 # 675346 # 676587 # 1 # ID=19_467;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.415
+Utg33286_467         -            414 80501at2157          -            175    0.0023   16.5   0.2   2   3     0.012        24    3.5   0.0     6    33   155   182   151   188 0.72 # 675346 # 676587 # 1 # ID=19_467;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.415
+Utg33286_467         -            414 80501at2157          -            175    0.0023   16.5   0.2   3   3   0.00091       1.8    7.1   0.1     2    36   333   367   332   376 0.77 # 675346 # 676587 # 1 # ID=19_467;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.415
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_downloads/lineages/archaea_odb10/hmms/80501at2157.hmm
+# Target file:     /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/auto_lineage/run_archaea_odb10/hmmer_output/80501at2157.out --cpu 1 /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_downloads/lineages/archaea_odb10/hmms/80501at2157.hmm /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco
+# Date:            Fri Feb 24 11:42:50 2023
+# [ok]

@@ -1,0 +1,33 @@
+#                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name          accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#  ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+Utg33252:497754-500828 -           1025 271586at2759         -            460   5.2e-68  225.5  24.3   1   5   1.8e-33   2.1e-31  104.9   1.0     2   170   117   305   116   312 0.82 -
+Utg33252:497754-500828 -           1025 271586at2759         -            460   5.2e-68  225.5  24.3   2   5     0.024       2.8    2.3   0.0   148   172   345   369   339   376 0.86 -
+Utg33252:497754-500828 -           1025 271586at2759         -            460   5.2e-68  225.5  24.3   3   5   4.3e-08     5e-06   21.2   0.4   195   272   464   555   413   560 0.84 -
+Utg33252:497754-500828 -           1025 271586at2759         -            460   5.2e-68  225.5  24.3   4   5      0.04       4.6    1.5   0.0   272   298   727   753   716   764 0.86 -
+Utg33252:497754-500828 -           1025 271586at2759         -            460   5.2e-68  225.5  24.3   5   5   1.3e-32   1.5e-30  102.0   6.2   340   456   877  1013   847  1015 0.88 -
+Utg33286:450668-451576 -            303 271586at2759         -            460   5.5e-11   37.5   1.5   1   4   0.00087       0.1    7.0   0.0    26    62     5    41     2    43 0.91 -
+Utg33286:450668-451576 -            303 271586at2759         -            460   5.5e-11   37.5   1.5   2   4     2e-05    0.0023   12.4   0.0   202   256    40    98    37   123 0.77 -
+Utg33286:450668-451576 -            303 271586at2759         -            460   5.5e-11   37.5   1.5   3   4     0.083       9.6    0.5   0.0   231   255   147   171   133   186 0.71 -
+Utg33286:450668-451576 -            303 271586at2759         -            460   5.5e-11   37.5   1.5   4   4   6.9e-06   0.00079   13.9   0.0    23    63   252   292   246   300 0.90 -
+Utg33286:65678-66556   -            293 271586at2759         -            460     2e-07   25.8   3.3   1   4    0.0034      0.39    5.1   0.0    24   260   102   131    63   141 0.68 -
+Utg33286:65678-66556   -            293 271586at2759         -            460     2e-07   25.8   3.3   2   4     0.012       1.4    3.2   0.2    93   112   142   161   136   191 0.76 -
+Utg33286:65678-66556   -            293 271586at2759         -            460     2e-07   25.8   3.3   3   4      0.12        13    0.0   0.1    62    78   209   225   172   231 0.70 -
+Utg33286:65678-66556   -            293 271586at2759         -            460     2e-07   25.8   3.3   4   4     3e-06   0.00034   15.1   0.0    21    77   235   292   223   293 0.89 -
+Utg33264:721695-723761 -            689 271586at2759         -            460   7.1e-05   17.4   0.4   1   2     0.034         4    1.7   0.1   132   171   267   306   261   313 0.91 -
+Utg33264:721695-723761 -            689 271586at2759         -            460   7.1e-05   17.4   0.4   2   2     1e-05    0.0012   13.4   0.0    25    68   357   400   350   413 0.86 -
+Utg33260:850929-852731 -            601 271586at2759         -            460   7.5e-05   17.3   0.8   1   2      0.08       9.2    0.5   0.3   132   186   173   229   168   247 0.84 -
+Utg33260:850929-852731 -            601 271586at2759         -            460   7.5e-05   17.3   0.8   2   2   4.1e-06   0.00047   14.7   0.0    26    62   259   295   236   305 0.84 -
+Utg33262:355216-355602 -            129 271586at2759         -            460   0.00012   16.7   0.0   1   1   1.2e-06   0.00014   16.4   0.0    18    79    40   102    27   108 0.89 -
+Utg33260:316701-317171 -            157 271586at2759         -            460    0.0019   12.7   2.1   1   2   0.00075     0.087    7.2   0.3    18    51     8    41     2    54 0.73 -
+Utg33260:316701-317171 -            157 271586at2759         -            460    0.0019   12.7   2.1   2   2     0.006      0.69    4.2   0.1    23    61    47    86    36    96 0.73 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_downloads/lineages/eukaryota_odb10/hmms/271586at2759.hmm
+# Target file:     /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/auto_lineage/run_eukaryota_odb10/metaeuk_output/initial_results/SRRoutput.fasta.modified.fas
+# Option settings: hmmsearch --domtblout /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/auto_lineage/run_eukaryota_odb10/hmmer_output/initial_run_results/271586at2759.out --cpu 1 /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_downloads/lineages/eukaryota_odb10/hmms/271586at2759.hmm /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/auto_lineage/run_eukaryota_odb10/metaeuk_output/initial_results/SRRoutput.fasta.modified.fas 
+# Current dir:     /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco
+# Date:            Fri Feb 24 11:49:11 2023
+# [ok]

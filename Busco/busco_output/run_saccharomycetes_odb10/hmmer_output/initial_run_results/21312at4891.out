@@ -1,0 +1,27 @@
+#                                                                                --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name            accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#    ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+Utg33280:1220595-1222040 -            482 21312at4891          -            332  6.7e-175  578.2  14.0   1   2  2.1e-153    8e-151  499.0   9.5     1   280     1   292     1   303 0.95 -
+Utg33280:1220595-1222040 -            482 21312at4891          -            332  6.7e-175  578.2  14.0   2   2     2e-26   7.6e-24   81.7   0.1   278   332   423   479   414   479 0.94 -
+Utg33286:211761-215492   -           1244 21312at4891          -            332   7.2e-13   45.6   0.6   1   3    0.0011      0.43    6.9   0.0   282   317     9    45     4    67 0.81 -
+Utg33286:211761-215492   -           1244 21312at4891          -            332   7.2e-13   45.6   0.6   2   3   5.1e-06     0.002   14.6   0.1   279   331    72   128    60   129 0.79 -
+Utg33286:211761-215492   -           1244 21312at4891          -            332   7.2e-13   45.6   0.6   3   3   6.1e-08   2.3e-05   20.9   0.0   274   330   351   410   317   412 0.87 -
+Utg33262:350674-352569   -            632 21312at4891          -            332     7e-12   42.3   5.2   1   3     0.063        24    1.1   1.4    20    64   140   184   128   222 0.81 -
+Utg33262:350674-352569   -            632 21312at4891          -            332     7e-12   42.3   5.2   2   3   1.6e-06    0.0006   16.3   0.1   272   331   489   551   463   552 0.74 -
+Utg33262:350674-352569   -            632 21312at4891          -            332     7e-12   42.3   5.2   3   3   6.2e-09   2.4e-06   24.2   0.0   279   329   580   631   574   632 0.89 -
+Utg33258:67040-68815     -            592 21312at4891          -            332   1.1e-09   35.1   0.0   1   1   5.1e-12   1.9e-09   34.3   0.0   276   332   532   590   524   590 0.88 -
+Utg33286:606943-608592   -            550 21312at4891          -            332   2.6e-06   24.0   0.0   1   2   2.1e-06   0.00081   15.8   0.0   273   331    69   128    62   129 0.84 -
+Utg33286:606943-608592   -            550 21312at4891          -            332   2.6e-06   24.0   0.0   2   2    0.0022      0.83    5.9   0.0   281   323   160   202   150   214 0.83 -
+Utg33278:398964-399983   -            340 21312at4891          -            332   3.5e-06   23.6   0.1   1   1   1.4e-08   5.2e-06   23.0   0.1   281   332   285   338   270   338 0.83 -
+Utg33280:238918-241566   -            883 21312at4891          -            332    0.0006   16.3   0.4   1   2   1.5e-05    0.0056   13.1   0.0   280   331    11    64     2    65 0.84 -
+Utg33280:238918-241566   -            883 21312at4891          -            332    0.0006   16.3   0.4   2   2      0.11        42    0.3   0.4   162   192   196   227   190   256 0.72 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_downloads/lineages/saccharomycetes_odb10/hmms/21312at4891.hmm
+# Target file:     /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/run_saccharomycetes_odb10/metaeuk_output/initial_results/SRRoutput.fasta.modified.fas
+# Option settings: hmmsearch --domtblout /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/run_saccharomycetes_odb10/hmmer_output/initial_run_results/21312at4891.out --cpu 1 /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_downloads/lineages/saccharomycetes_odb10/hmms/21312at4891.hmm /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/run_saccharomycetes_odb10/metaeuk_output/initial_results/SRRoutput.fasta.modified.fas 
+# Current dir:     /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco
+# Date:            Fri Feb 24 12:02:28 2023
+# [ok]

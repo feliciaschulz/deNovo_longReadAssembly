@@ -1,0 +1,22 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+Utg33264_37          -            227 117225at2157         -            147     1e-17   63.0   2.8   1   1   6.3e-18   7.3e-15   53.7   2.8     8   126    23   168    16   185 0.79 # 51743 # 52423 # 1 # ID=8_37;partial=00;start_type=ATG;rbs_motif=AAGAA;rbs_spacer=11bp;gc_cont=0.410
+Utg33264_515         -            228 117225at2157         -            147   1.4e-17   62.5   2.7   1   1   7.6e-18   8.8e-15   53.5   2.7     8   129    26   174    21   188 0.79 # 784391 # 785074 # -1 # ID=8_515;partial=00;start_type=ATG;rbs_motif=AATAA;rbs_spacer=14bp;gc_cont=0.399
+Utg33286_58          -            355 117225at2157         -            147   8.8e-05   21.0   0.1   1   1   1.3e-07   0.00016   20.2   0.1    76   133   246   303   208   313 0.81 # 90787 # 91851 # 1 # ID=19_58;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.392
+Utg33278_268         -            319 117225at2157         -            147   0.00024   19.6   0.0   1   1     4e-07   0.00047   18.7   0.0    75   130   209   264   177   276 0.85 # 359131 # 360087 # -1 # ID=15_268;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.411
+Utg33264_137         -            188 117225at2157         -            147    0.0018   16.8   0.0   1   2       1.4   1.6e+03   -2.5   0.0    36    54    58    76    44    93 0.61 # 212202 # 212765 # 1 # ID=8_137;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.420
+Utg33264_137         -            188 117225at2157         -            147    0.0018   16.8   0.0   2   2   3.3e-06    0.0039   15.7   0.0    68   113   105   152   102   169 0.77 # 212202 # 212765 # 1 # ID=8_137;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.420
+Utg33280_895         -            195 117225at2157         -            147     0.002   16.7   0.0   1   2      0.71   8.2e+02   -1.6   0.0    35    51    71    87    65    95 0.76 # 1314758 # 1315342 # -1 # ID=16_895;partial=00;start_type=GTG;rbs_motif=AAAAAA;rbs_spacer=9bp;gc_cont=0.424
+Utg33280_895         -            195 117225at2157         -            147     0.002   16.7   0.0   2   2   5.6e-06    0.0065   15.0   0.0    83   120   136   174   127   188 0.75 # 1314758 # 1315342 # -1 # ID=16_895;partial=00;start_type=GTG;rbs_motif=AAAAAA;rbs_spacer=9bp;gc_cont=0.424
+Utg33262_60          -            321 117225at2157         -            147    0.0036   15.8   0.1   1   1   5.4e-06    0.0063   15.0   0.1    77   133   210   266   171   276 0.86 # 89620 # 90582 # -1 # ID=7_60;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.390
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_downloads/lineages/archaea_odb10/hmms/117225at2157.hmm
+# Target file:     /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/auto_lineage/run_archaea_odb10/hmmer_output/117225at2157.out --cpu 1 /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_downloads/lineages/archaea_odb10/hmms/117225at2157.hmm /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco
+# Date:            Fri Feb 24 11:42:45 2023
+# [ok]

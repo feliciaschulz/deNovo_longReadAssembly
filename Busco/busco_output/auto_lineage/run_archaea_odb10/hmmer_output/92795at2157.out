@@ -1,0 +1,19 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+Utg33260_506         -            677 92795at2157          -            212     1e-29  102.4   6.5   1   6     1e-06    0.0081   14.5   0.1    25    51   237   269   217   291 0.66 # 762328 # 764358 # -1 # ID=6_506;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.382
+Utg33260_506         -            677 92795at2157          -            212     1e-29  102.4   6.5   2   6    0.0013        10    4.4   0.0    59    76   297   314   281   318 0.81 # 762328 # 764358 # -1 # ID=6_506;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.382
+Utg33260_506         -            677 92795at2157          -            212     1e-29  102.4   6.5   3   6   1.3e-13   1.1e-09   37.0   0.0    72   117   334   379   321   411 0.77 # 762328 # 764358 # -1 # ID=6_506;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.382
+Utg33260_506         -            677 92795at2157          -            212     1e-29  102.4   6.5   4   6     2e-12   1.6e-08   33.2   0.2   116   162   422   470   411   492 0.76 # 762328 # 764358 # -1 # ID=6_506;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.382
+Utg33260_506         -            677 92795at2157          -            212     1e-29  102.4   6.5   5   6     0.046   3.7e+02   -0.7   0.0   167   206   545   580   542   582 0.85 # 762328 # 764358 # -1 # ID=6_506;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.382
+Utg33260_506         -            677 92795at2157          -            212     1e-29  102.4   6.5   6   6   1.5e-05      0.12   10.7   0.0   190   212   638   660   624   660 0.91 # 762328 # 764358 # -1 # ID=6_506;partial=00;start_type=ATG;rbs_motif=None;rbs_spacer=None;gc_cont=0.382
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_downloads/lineages/archaea_odb10/hmms/92795at2157.hmm
+# Target file:     /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/auto_lineage/run_archaea_odb10/hmmer_output/92795at2157.out --cpu 1 /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_downloads/lineages/archaea_odb10/hmms/92795at2157.hmm /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco
+# Date:            Fri Feb 24 11:42:51 2023
+# [ok]

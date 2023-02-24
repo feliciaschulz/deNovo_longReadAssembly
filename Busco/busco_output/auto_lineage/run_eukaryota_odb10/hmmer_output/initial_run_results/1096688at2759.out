@@ -1,0 +1,17 @@
+#                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name          accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#  ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+Utg33274:174585-175739 -            385 1096688at2759        -            221  1.9e-101  333.9   3.2   1   1  2.7e-103  5.5e-101  332.4   3.2     2   213     6   254     5   269 0.86 -
+Utg33260:789378-790103 -            242 1096688at2759        -            221   2.1e-25   85.3   0.0   1   1   1.5e-27   2.9e-25   84.8   0.0     3   161    16   193    14   218 0.82 -
+Utg33254:593052-593702 -            217 1096688at2759        -            221   2.6e-24   81.7   0.0   1   1     2e-26     4e-24   81.1   0.0     2   159     1   174     1   191 0.85 -
+Utg33270:82814-83341   -            176 1096688at2759        -            221    0.0011   14.2   0.0   1   1   1.2e-05    0.0024   13.1   0.0   104   170    54   116    18   176 0.76 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_downloads/lineages/eukaryota_odb10/hmms/1096688at2759.hmm
+# Target file:     /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/auto_lineage/run_eukaryota_odb10/metaeuk_output/initial_results/SRRoutput.fasta.modified.fas
+# Option settings: hmmsearch --domtblout /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/auto_lineage/run_eukaryota_odb10/hmmer_output/initial_run_results/1096688at2759.out --cpu 1 /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_downloads/lineages/eukaryota_odb10/hmms/1096688at2759.hmm /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco/busco_output/auto_lineage/run_eukaryota_odb10/metaeuk_output/initial_results/SRRoutput.fasta.modified.fas 
+# Current dir:     /home/inf-34-2022/Documents/BINP29/DeNovo_LongReads/Busco
+# Date:            Fri Feb 24 11:49:07 2023
+# [ok]
